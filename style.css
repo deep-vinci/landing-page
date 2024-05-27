@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -104,4 +104,12 @@ ul .logo {
 .section-four div div {
     display: flex;
     flex-direction: column;
+}
+
+/* footer layout */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
