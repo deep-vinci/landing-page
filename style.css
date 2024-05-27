@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    /* font-weight: 400; */
+    /* font-style: normal; */
 }
 
 /* navigation */
@@ -47,7 +47,21 @@ ul .logo {
     background-color: #252a3a;
 
 }
+.readable-three {
+    display: flex;
+    justify-content: center;
 
+}
+.readable-four {
+    display: flex;
+    justify-content: center;
+    background-color: #e4e5ea;
+}
+.readable-five {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
 /* section one */
 
 .section-one {
@@ -58,7 +72,7 @@ ul .logo {
     background-color: #252a3a;
 }
 
-.section-one h1, p {
+.section-one h1, .section-one p {
     color: #f9fafb;
 }
 .section-one h1 {
@@ -78,7 +92,7 @@ ul .logo {
     align-items: center;
 }
 
-.subsection-one h1, p, button {
+.subsection-one h1, .subsection-one p, .subsection-one button {
     margin: 15px;
     /* line-height: 28px; */
 }
@@ -115,30 +129,74 @@ ul .logo {
 .section-two {
     display: flex;
     flex-direction: column;
+    width: 75vw;
+    height: 60vh;
+    background-color: white;
+    
+}
+
+.section-two .info {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 40px;
 }
 
 .section-two .below-info {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 1rem;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 0rem;
 }
 
+.illustration-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .box {
     height: 200px;
     width: 200px;
-    border: 1px solid black;
+    border: 5px solid #5a40f4;
+    border-radius: 20px;
 }
+
+.text-box {
+    margin: 0px 40px;
+    padding: 20px;
+    font-size: 24px;
+    color: #3e3e3f;
+}
+
 
 /* section three */
 .section-three {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+    height: 60vh;
+    /* font-style: italic; */
+}
+
+.section-three .quote {
+    font-size: 26px;
+    font-style: italic;
+    /* font-weight: 100; */
+    color: #292f3e;
+    margin: 0px 200px;
 }
 
 .section-three .said-by {
     display: flex;
-    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 200px;
+    margin-top: 30px;
+    font-weight: bolder;
+    /* justify-content: flex-end; */
 }
 
 /* section four */
@@ -147,11 +205,14 @@ ul .logo {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 40vh;
 }
 
 /* cta text and button alignment */
 .section-four div {
     display: flex;
+    background-color: #5a40f4;
+    padding: ;
 }
 
 .section-four div .cta-button {
@@ -164,6 +225,11 @@ ul .logo {
 .section-four div div {
     display: flex;
     flex-direction: column;
+}
+.section-four h3 {
+    font-size: 45px;
+    color: #e4e5ea;
+    padding: 30px 60px;
 }
 
 /* footer layout */
