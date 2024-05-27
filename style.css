@@ -69,3 +69,14 @@ ul .logo {
     width: 200px;
     border: 1px solid black;
 }
+
+/* section three */
+.section-three {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-three .said-by {
+    display: flex;
+    justify-content: flex-end;
+}
