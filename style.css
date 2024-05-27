@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -50,3 +50,22 @@ ul .logo {
 
 }
 
+/* section two */
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-two .below-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
