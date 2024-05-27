@@ -1,6 +1,6 @@
 * {
-    /* margin: 0;
-    padding: 0; */
+    margin: 0;
+    padding: 0;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -79,4 +79,29 @@ ul .logo {
 .section-three .said-by {
     display: flex;
     justify-content: flex-end;
+}
+
+/* section four */
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* cta text and button alignment */
+.section-four div {
+    display: flex;
+}
+
+.section-four div .cta-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* cta header and para alignment */
+.section-four div div {
+    display: flex;
+    flex-direction: column;
 }
