@@ -3,8 +3,10 @@
     padding: 0;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-style: normal;}
+    font-style: normal;
+}
 
+/* navigation */
 nav {
     border: 1px solid black;
 }
@@ -21,3 +23,30 @@ ul .logo {
     margin-left: 0;
     margin-right: auto;
 }
+
+/* section one */
+
+.section-one {
+    display: flex;
+    border: 1px solid black;
+}
+
+.section-one div {
+    flex: 1;
+}
+
+.subsection-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.subsection-two div {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
