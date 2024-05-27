@@ -1,6 +1,6 @@
 * {
-    /* margin: 0;
-    padding: 0; */
+    margin: 0;
+    padding: 0;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -8,7 +8,11 @@
 
 /* navigation */
 nav {
-    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: #252a3a;
+    color: #f9faf8;
 }
 
 nav ul {
@@ -17,37 +21,93 @@ nav ul {
     gap: 1rem;
     flex-direction: row;
     justify-content: flex-end;
+    color: #e5e7e8;
+    font-size: 18px;
+    
+}
+
+nav ul a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
 }
 
 ul .logo {
     margin-left: 0;
     margin-right: auto;
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+.readable {
+    width: 75vw;
+}
+.readable-two {
+    display: flex;
+    justify-content: center;
+    background-color: #252a3a;
+
 }
 
 /* section one */
 
 .section-one {
     display: flex;
-    border: 1px solid black;
+    width: 75vw;
+    height: 60vh;
+    /* border: 1px solid black; */
+    background-color: #252a3a;
 }
 
+.section-one h1, p {
+    color: #f9fafb;
+}
+.section-one h1 {
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 70px;
+}
+.section-one p {
+    font-size: 24px;
+}
 .section-one div {
     flex: 1;
+}
+
+.subsection-one {
+    display: flex;
+    align-items: center;
+}
+
+.subsection-one h1, p, button {
+    margin: 15px;
+    /* line-height: 28px; */
+}
+
+.subsection-one button {
+    background-color: #5a40f4;
+    color: #f9fafb;
+    border: none;
+    padding: 10px 55px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bolder;
 }
 
 .subsection-two {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .subsection-two div {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
-
+    height: 300px;
+    background-color: #6d727c;
+    color: #e9eaeb;
 }
 
 /* section two */
