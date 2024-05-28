@@ -11,4 +11,4 @@ Landing page form The Odin Project
 
 - Final Version
 
-![My final [page](assets/final_version.png)
+![My final page](assets/final_version.png)
