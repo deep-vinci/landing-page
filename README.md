@@ -5,7 +5,10 @@ Landing page form The Odin Project
 ![Assignment requirements](assets/01.png)
 
 ### My Submission
+
 - Wireframe Layout (first iteration)
 ![My layout submission](assets/mylayout.png)
 
-- Final
+- Final Version
+
+![My final [page](assets/final_version.png)
