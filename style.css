@@ -57,11 +57,11 @@ ul .logo {
     justify-content: center;
     background-color: #e4e5ea;
 }
-.readable-five {
+/* .readable-five {
     display: flex;
     justify-content: center;
     background-color: white;
-}
+} */
 /* section one */
 
 .section-one {
@@ -209,27 +209,53 @@ ul .logo {
 }
 
 /* cta text and button alignment */
-.section-four div {
+.section-four .readable-five {
     display: flex;
     background-color: #5a40f4;
-    width: 70vw;
-    height: 20vh;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     
 }
 
-.section-four div .cta-button {
+.readable-five {
+    width: 65vw;
+    height: 18vh;
+    border-radius: 10px;
+    color: white;
+}
+
+.readable-five div {
+    flex-grow: 1;
+}
+.text-content {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 20vw;
+    /* padding-left: 50px; */
+
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.button button {
+    border: 2px solid white;
+    background-color: transparent;
+    font-size: 25px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
 }
 
 /* cta header and para alignment */
-.section-four div div {
+/* .section-four div div {
     display: flex;
     flex-direction: column;
-}
+} */
 .section-four h3 {
     font-size: 45px;
     color: #e4e5ea;
