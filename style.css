@@ -212,13 +212,17 @@ ul .logo {
 .section-four div {
     display: flex;
     background-color: #5a40f4;
-    padding: ;
+    width: 70vw;
+    height: 20vh;
+    border: 2px solid red;
+    
 }
 
 .section-four div .cta-button {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 20vw;
 }
 
 /* cta header and para alignment */
@@ -229,7 +233,6 @@ ul .logo {
 .section-four h3 {
     font-size: 45px;
     color: #e4e5ea;
-    padding: 30px 60px;
 }
 
 /* footer layout */
@@ -238,4 +241,8 @@ ul .logo {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #252a3a;
+    height: 15vh;
+    font-size: 30px;
+    color: white;
 }
