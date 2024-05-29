@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
-    /* font-weight: 400; */
-    /* font-style: normal; */
 }
 
 /* navigation */
@@ -57,11 +55,6 @@ ul .logo {
     justify-content: center;
     background-color: #e4e5ea;
 }
-/* .readable-five {
-    display: flex;
-    justify-content: center;
-    background-color: white;
-} */
 /* section one */
 
 .section-one {
@@ -94,7 +87,6 @@ ul .logo {
 
 .subsection-one h1, .subsection-one p, .subsection-one button {
     margin: 15px;
-    /* line-height: 28px; */
 }
 
 .subsection-one button {
@@ -111,11 +103,9 @@ ul .logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid black; */
 }
 
 .subsection-two div {
-    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,9 +201,7 @@ ul .logo {
 /* cta text and button alignment */
 .section-four .readable-five {
     display: flex;
-    background-color: #5a40f4;
-    /* border: 2px solid red; */
-    
+    background-color: #5a40f4;    
 }
 
 .readable-five {
@@ -231,8 +219,6 @@ ul .logo {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding-left: 50px; */
-
 }
 
 .button {
@@ -251,11 +237,6 @@ ul .logo {
     color: white;
 }
 
-/* cta header and para alignment */
-/* .section-four div div {
-    display: flex;
-    flex-direction: column;
-} */
 .section-four h3 {
     font-size: 45px;
     color: #e4e5ea;
